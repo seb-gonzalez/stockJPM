@@ -15,8 +15,8 @@ public class Stock {
 	private double fixed_dividend;
 	private int par_value;
 	
-	// private boolean stockPrice; /*Calculate Stock price based on trades
-	// recorded in past 15 minutes*/
+	// private boolean stockPrice; Calculate Stock price based on trades
+	// recorded in past 15 minutes*     ???
 
 	public Stock(ArrayList<String> realTimeData) {
 		this.stock = realTimeData.get(0);
