@@ -30,6 +30,10 @@ public class Main {
 				"\nDividend Yield: " + stock.getDividend_yield() + 
 				"\nP/E Ratio:      " + stock.getRatio());
 		
+		stock.recordTrade("buy", 10, 10.5);
+		stock.recordTrade("buy", 1, 2.5);
+		stock.recordTrade("buy", 4, 1.5);
+		
 		
 		
 		
